@@ -27,7 +27,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.firstinspires.ftc.robotcontroller.external.samples;
+/*package org.firstinspires.ftc.robotcontroller.external.samples;
 
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -64,7 +64,7 @@ import com.qualcomm.robotcore.util.Range;
  *  Also add another new file named RobotHardware.java, select the sample with that name, and select Not an OpMode.
  */
 
-@TeleOp(name="Concept: Robot Hardware Class", group="Robot")
+ /*@TeleOp(name="Concept: Robot Hardware Class", group="Robot")
 @Disabled
 public class ConceptExternalHardwareClass extends LinearOpMode {
 
@@ -139,4 +139,4 @@ public class ConceptExternalHardwareClass extends LinearOpMode {
             sleep(50);
         }
     }
-}
+} */
