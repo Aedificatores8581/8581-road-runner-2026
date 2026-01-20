@@ -57,9 +57,9 @@ public final class MecanumDrive {
         // IMU orientation
         // TODO: fill in these values based on
         //   see https://ftc-docs.firstinspires.org/en/latest/programming_resources/imu/imu.html?highlight=imu#physical-hub-mounting
-        public RevHubOrientationOnRobot.LogoFacingDirection logoFacingDirection =
+        public RevHubOrientationOnRobot.LogoFacingDirection logoFacingDirection =  //That is This
                 RevHubOrientationOnRobot.LogoFacingDirection.UP;
-        public RevHubOrientationOnRobot.UsbFacingDirection usbFacingDirection =
+        public RevHubOrientationOnRobot.UsbFacingDirection usbFacingDirection =  //And This
                 RevHubOrientationOnRobot.UsbFacingDirection.FORWARD;
 
         // drive model parameters
@@ -245,7 +245,7 @@ public final class MecanumDrive {
 
         voltageSensor = hardwareMap.voltageSensor.iterator().next();
 
-        localizer = new DriveLocalizer(pose);
+        localizer = new DriveLocalizer(pose);   //This needs to be replaced with the methode of encoding from vid?
 
         FlightRecorder.write("MECANUM_PARAMS", PARAMS);
     }

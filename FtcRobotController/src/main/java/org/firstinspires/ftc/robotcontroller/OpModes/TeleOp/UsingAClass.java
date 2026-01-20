@@ -17,7 +17,7 @@ public class UsingAClass extends OpMode {
         return output;
     }
 
-    int 
+
 
     @Override
     public void init() {
